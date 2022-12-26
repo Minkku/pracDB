@@ -60,6 +60,7 @@ app.post('/posting', async(req, res) =>{
     );
     res.status(201).json({ message : "postCreated"})
 })
+//
 
 const PORT = 3001
 
